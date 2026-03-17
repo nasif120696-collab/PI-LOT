@@ -1,3 +1,17 @@
-# PI-LOT
-PI-LOT: The Calculated Ascent to Global Higher Education. > A minimalist, data-driven platform designed to streamline the international scholarship process. Built for students who don't just dream of flying—they pilot it.
+# Pi-Lot 🚀
+
+A platform to help Bangladeshi students find study abroad opportunities and scholarships.
+
+## 🌐 Live Demo
+https://pi-lot.nasif120696.workers.dev/
+
+## ⚙️ Tech Stack
+- HTML / CSS / JavaScript
+- Cloudflare Workers
+- Modern UI Design
+
+## ✨ Features
+- Scholarship search
+- Study abroad guidance
+- Resource hub for students
 <img width="1408" height="768" alt="PILO" src="https://github.com/user-attachments/assets/68145c53-0e1a-4bca-8aaa-1aaac64abcce" />
