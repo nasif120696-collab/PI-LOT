@@ -3,7 +3,7 @@
 A platform to help Bangladeshi students find study abroad opportunities and scholarships.
 
 ## 🌐 Live Demo
-https://pi-lot.nasif120696.workers.dev/
+(https://pi-lotio.vercel.app/)
 
 ## ⚙️ Tech Stack
 - HTML / CSS / JavaScript
