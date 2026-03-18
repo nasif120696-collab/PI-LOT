@@ -1,91 +1,224 @@
-Pi-Lot 🚀
-The Calculated Ascent to Global Higher Education
-<img width="489" height="169" alt="image" src="https://github.com/user-attachments/assets/0ef23e2b-4df9-4de4-9a43-514ba934e375" />
+<div align="center">
 
+<img src="https://img.shields.io/badge/version-1.0-6366f1?style=for-the-badge&labelColor=0a0b1a" />
+<img src="https://img.shields.io/badge/license-MIT-10b981?style=for-the-badge&labelColor=0a0b1a" />
+<img src="https://img.shields.io/badge/deployment-Vercel-000000?style=for-the-badge&logo=vercel&labelColor=0a0b1a" />
+<img src="https://img.shields.io/badge/edge-Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&labelColor=0a0b1a" />
+<img src="https://img.shields.io/badge/status-Active-10b981?style=for-the-badge&labelColor=0a0b1a" />
 
-Pi-Lot is a minimalist, data-driven platform designed to streamline the international scholarship and higher education application process for Bangladeshi students. Built for students who don't just dream of flying—they pilot it.
+<br /><br />
 
-Explore the Live Demo »
-📖 Table of Contents
+# 🛩️ Pi-Lot
 
-    Key Features
+### *The Calculated Ascent to Global Higher Education*
 
-    Tech Stack
+<br />
 
-    Getting Started
+> **"Built for students who don't just dream of flying —**
+> **they pilot it."**
 
-    Contributing
+<br />
 
-    License
+Pi-Lot is a minimalist, data-driven platform designed to streamline the international
+scholarship and higher education application process for Bangladeshi students.
+From funding discovery to visa documentation — every step, charted.
 
-✨ Key Features
+<br />
 
-    🔍 Scholarship Search: A curated database of global funding opportunities tailored for South Asian applicants.
+**[🌐 Live Demo](https://github.com/nasif120696-collab/PI-LOT)** &nbsp;·&nbsp;
+**[✨ Features](#-key-features)** &nbsp;·&nbsp;
+**[🚀 Getting Started](#-getting-started)** &nbsp;·&nbsp;
+**[🗺️ Roadmap](#-roadmap)** &nbsp;·&nbsp;
+**[🤝 Contributing](#-contributing)**
 
-    🎓 Study Abroad Guidance: Step-by-step roadmaps for university selection, documentation, and visa processes.
+<br />
 
-    📚 Resource Hub: A centralized library containing templates, academic guidelines, and essential links for aspiring scholars.
+---
 
-    📱 Responsive Design: Optimized for seamless navigation across mobile, tablet, and desktop devices.
+</div>
 
-🛠️ Tech Stack
+## 📌 What is Pi-Lot?
 
-    Frontend: HTML5, CSS3 (Modern UI/UX principles), Vanilla JavaScript
+Applying to universities abroad is overwhelming — especially for students in Bangladesh navigating scholarship deadlines, documentation requirements, and visa processes with little structured guidance.
 
-    Infrastructure: Cloudflare Workers for serverless edge computing
+**Pi-Lot fixes that.**
 
-    Deployment: Vercel for high-performance hosting
+It is a clean, focused web platform that centralizes everything a prospective international student needs: curated scholarship databases, step-by-step study abroad roadmaps, and a resource library of templates and official guidelines — all in one place, free to use.
 
-    Design: Modern, clean aesthetics focused on readability and user flow
+No clutter. No noise. Just a clear flight path.
 
-🚀 Getting Started
+<br />
 
-To get a local copy up and running, follow these steps:
-Prerequisites
+---
 
-    A modern web browser.
+## ✨ Key Features
 
-    (Optional) Node.js if you wish to use the Cloudflare Wrangler CLI.
+| Feature | Description |
+|---|---|
+| 🔍 **Scholarship Search** | Curated database of global funding opportunities tailored for South Asian applicants, filterable by country, degree level, and deadline |
+| 🎓 **Study Abroad Guidance** | Step-by-step roadmaps covering university selection, documentation checklists, and visa application processes |
+| 📚 **Resource Hub** | Centralized library of SOP templates, academic guidelines, scholarship letter samples, and essential external links |
+| 📱 **Responsive Design** | Fully optimized for mobile, tablet, and desktop — seamless navigation on any device |
+| ⚡ **Edge Performance** | Powered by Cloudflare Workers for low-latency, globally distributed serverless execution |
+| 🎨 **Minimalist UI** | Clean, distraction-free design focused entirely on readability and user flow |
 
-Installation
+<br />
 
-    Clone the repository:
-    Bash
+---
 
-    git clone https://github.com/nasif120696-collab/PI-LOT.git
+## 🛠️ Tech Stack
+```
+Frontend        HTML5 · CSS3 (Modern UI/UX) · Vanilla JavaScript
+Infrastructure  Cloudflare Workers — serverless edge computing
+Deployment      Vercel — high-performance global hosting
+Design          Minimalist aesthetics, mobile-first, readability-focused
+Dependencies    Zero external JS libraries
+```
 
-    Navigate to the directory:
-    Bash
+<br />
 
-    cd PI-LOT
+---
 
-    Launch the application:
-    Simply open index.html in your browser or use the Live Server extension in VS Code.
+## 🚀 Getting Started
 
-🤝 Contributing
+### Prerequisites
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+- A modern web browser (Chrome, Firefox, Edge, Safari)
+- *(Optional)* Node.js — only if using the Cloudflare Wrangler CLI for local edge testing
 
-    Fork the Project.
+### Installation
 
-    Create your Feature Branch (git checkout -b feature/AmazingFeature).
+**1. Clone the repository**
+```bash
+git clone https://github.com/nasif120696-collab/PI-LOT.git
+```
 
-    Commit your Changes (git commit -m 'Add some AmazingFeature').
+**2. Navigate into the project**
+```bash
+cd PI-LOT
+```
 
-    Push to the Branch (git push origin feature/AmazingFeature).
+**3. Launch the application**
 
-    Open a Pull Request.
+Option A — Open directly in browser:
+```bash
+open index.html          # macOS
+start index.html         # Windows
+xdg-open index.html      # Linux
+```
 
-🗺️ Roadmap
+Option B — Use VS Code Live Server:
+```
+Right-click index.html → "Open with Live Server"
+```
 
-    [ ] Phase 1: Integration of a dynamic search filter for country-specific scholarships.
+Option C — Deploy your own instance on Vercel (free):
+```
+1. Fork this repository
+2. Go to vercel.com → New Project → Import from GitHub
+3. Select PI-LOT → Deploy
+4. Live in ~30 seconds with a free Vercel URL
+```
 
-    [ ] Phase 2: Automated deadline reminders and notification system.
+<br />
 
-    [ ] Phase 3: Community forum for student peer-review of application essays.
+---
 
-📄 License
+## 🗺️ Roadmap
 
-Distributed under the MIT License. See LICENSE for more information.
+Track the planned development of Pi-Lot across three phases:
 
-Developed with ❤️ by Mushfiqul Alam Nasif Empowering the next generation of global scholars.
+- [x] **v1.0** — Core platform: scholarship listings, resource hub, responsive UI
+- [ ] **Phase 1** — Dynamic search filter for country-specific and degree-specific scholarships
+- [ ] **Phase 2** — Automated deadline reminder and notification system
+- [ ] **Phase 3** — Community forum for peer review of application essays and SOPs
+
+<br />
+
+Have an idea? [Open a feature request →](https://github.com/nasif120696-collab/PI-LOT/issues)
+
+<br />
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an incredible place to
+learn, build, and grow. Every contribution — big or small — is genuinely appreciated.
+```bash
+# 1. Fork the repository on GitHub
+
+# 2. Clone your fork
+git clone https://github.com/YOUR-USERNAME/PI-LOT.git
+cd PI-LOT
+
+# 3. Create a descriptive feature branch
+git checkout -b feature/add-scholarship-filter
+
+# 4. Make your changes, then commit with a clear message
+git commit -m "feat: add country-based scholarship filter to search page"
+
+# 5. Push your branch
+git push origin feature/add-scholarship-filter
+
+# 6. Open a Pull Request on GitHub
+```
+
+### Ways to contribute:
+- 🔗 Add new verified scholarship opportunities to the database
+- 🐛 Report or fix broken links and outdated information
+- 🌍 Improve content coverage for underrepresented countries or programs
+- 📄 Contribute document templates (SOP, LOR, CV formats)
+- 🎨 Improve accessibility, responsiveness, or visual design
+- 💡 Suggest features via [GitHub Issues](https://github.com/nasif120696-collab/PI-LOT/issues)
+
+<br />
+
+---
+
+## 📊 Project Stats
+
+| Metric | Value |
+|---|---|
+| Target Audience | Bangladeshi students applying abroad |
+| Deployment | Vercel (free tier) |
+| Edge Runtime | Cloudflare Workers |
+| JS Dependencies | **0** |
+| Framework | None — pure HTML/CSS/JS |
+| License | MIT |
+
+<br />
+
+---
+
+## 📄 License
+```
+MIT License — Copyright (c) 2025 Mushfiqul Alam Nasif
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies, subject to the above copyright notice appearing in all copies.
+```
+
+> All externally linked scholarship databases, university websites, and official
+> government portals remain the property of their respective owners.
+> Pi-Lot curates and links to them — it does not host third-party content.
+
+<br />
+
+---
+
+<div align="center">
+
+**Developed with ❤️ by Mushfiqul Alam Nasif**
+
+*Empowering the next generation of global scholars.*
+
+<br/>
+
+⭐ **If Pi-Lot helped your journey, please give it a star!** ⭐
+
+[![GitHub stars](https://img.shields.io/github/stars/nasif120696-collab/PI-LOT?style=social)](https://github.com/nasif120696-collab/PI-LOT)
+[![GitHub forks](https://img.shields.io/github/forks/nasif120696-collab/PI-LOT?style=social)](https://github.com/nasif120696-collab/PI-LOT/fork)
+
+</div>
